@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+
+.active {
+    @apply border border-green-600  bg-[#E9F9F3] text-[#00A88E]
+}
+.not-active {
+    @apply border border-gray-300 rounded-lg bg-[#F2F4F7] text-black
+}
+
+@tailwind utilities;
+
